@@ -1,0 +1,35 @@
+algoritmo "ExercicioII_SeletordePessoas"
+
+var
+   Sexo, Resp: CARACTERE
+   Idade, Cabelo, pmcerta, pfcerta: INTEIRO
+inicio
+      Repita
+      EscrevaL("_________________________________")
+      EscrevaL("       SELETOR_DE_PESSOAS        ")
+      EscrevaL("---------------------------------")
+      Escreva("Qual seu sexo?[H/M] ")
+      Leia(Sexo)
+      Escreva("Qual a idade? ")
+      Leia(Idade)
+      EscrevaL("Qual a cor do cabelo? ")
+      EscrevaL("----------------------")
+      EscrevaL("[1] Preto   ")
+      EscrevaL("[2] Castanho")
+      EscrevaL("[3] Loiro   ")
+      EscrevaL("[4] Ruivo   ")
+      Leia(Cabelo)
+      Escreva("Quer continuar?[S/N] [SIM/NAO] ")
+      Leia(Resp)
+      LimpaTela
+           Se(sexo = "H")e(Idade>=18)e(cabelo = 2)entao
+            pmcerta <- pmcerta + 1
+        FimSe
+        Ate(Resp = "N")
+        LimpaTela
+        EscrevaL("------------------------")
+        EscrevaL("     RESULTADO FINAL    ")
+        EscrevaL("------------------------")
+        EscrevaL("Total de homens com mais de 18 anos e cabelos castanhos é?",pmcerta)
+        EscrevaL("Total de mulheres entre 25 e 30 anos e cabelo loiros é?",pfcerta)
+fimalgoritmo
