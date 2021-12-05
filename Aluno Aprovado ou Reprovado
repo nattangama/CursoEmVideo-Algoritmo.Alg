@@ -1,0 +1,17 @@
+algoritmo "Aluno Aprovado ou Reprovado"
+
+var
+  N1, N2, Media: Real
+inicio
+   EscrevaL("Digite a primeira nota: ")
+   Leia(N1)
+   EscrevaL("Digite o valor da segunda nota: ")
+   Leia(N2)
+   Media <-(N1 + N2)/2
+   EscrevaL("Sua média é", Media)
+   Se(Media >= 6) entao
+   Escreval("Parabens!,voce está aprovado.")
+   senao
+   escreva("Infelizmente,voce esta reprovado.")
+   FimSE
+fimalgoritmo
