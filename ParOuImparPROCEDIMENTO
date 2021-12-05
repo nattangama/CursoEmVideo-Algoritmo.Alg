@@ -1,0 +1,16 @@
+algoritmo "PraticaII_ParOuImparPROCEDIMENTO"
+var
+  N:Inteiro
+Procedimento ParOuImpar(V: Inteiro)
+inicio
+     Se (V%2 = 0) entao
+        EscrevaL("O Número ", V, " é PAR")
+     Senao
+        EscrevaL("O Número ", V, " é IMPAR")
+  FimSe
+FimProcedimento
+Inicio
+     Escreva("Digite um número: ")
+     Leia(N)
+     ParOuImpar(N)
+Fimalgoritmo
