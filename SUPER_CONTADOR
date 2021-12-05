@@ -1,0 +1,32 @@
+algoritmo "SUPER_CONTADOR"
+
+var
+   N, Contador: INTEIRO
+inicio
+Repita
+  EscrevaL("_________________________")
+  EscrevaL("         M E N U         ")
+  EscrevaL("-------------------------")
+  EscrevaL("[1] De 1 ate 10 ")
+  EscrevaL("[2] De 10 ate 1 ")
+  EscrevaL("[3] De Sair     ")
+  EscrevaL("-------------------------")
+  EscrevaL("Escolha a opção: ")
+  Leia(N)
+   Se(N = 1) Entao
+     Contador <- 1
+     Repita
+       EscrevaL(Contador,"...")
+       Contador <- Contador+1
+    Ate(Contador>10)
+FimSe
+   Se(N = 2) Entao
+     Contador <- 10
+Repita
+   EscrevaL(Contador,"...")
+   Contador <- Contador-1
+   Ate(Contador<1)
+   FimSe
+   Ate(N=3)
+   EscrevaL("Saindo...")
+fimalgoritmo
