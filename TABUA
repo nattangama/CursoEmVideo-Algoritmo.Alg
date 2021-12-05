@@ -1,0 +1,20 @@
+algoritmo "PraticaI_TABUA"
+
+var
+   Cont, N, R: Inteiro
+inicio
+      Cont <- 1
+      EscrevaL("              TABUA                  ")
+      EscrevaL("-------------------------------------")
+      EscrevaL("                X                    ")
+      EscrevaL("Queres ver a tabuada de qual número? ")
+      Leia(N)
+      EscrevaL("                X                    ")
+      Repita
+         R <- N * Cont
+         EscrevaL(N, " X ", Cont, " = ", R)
+         Cont <- Cont + 1
+      Ate (Cont > 10)
+      EscrevaL("                X                    ")
+      EscrevaL("A contagem encerrou!")
+fimalgoritmo
