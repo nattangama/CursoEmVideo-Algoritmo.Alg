@@ -1,0 +1,30 @@
+algoritmo "Turmas"
+
+var
+    Alunos,Cont : Inteiro
+    Nota, MN : Real
+    Nome, MA : Literal
+inicio
+      EscrevaL("_____________________________________________")
+      EscrevaL("UNIVERSIDADE VISUALG DA LÓGICA DE PROGRAMAÇÃO")
+      EscrevaL("_____________________________________________")
+      Escreva("Quantos alunos a turma tem? ")
+      Leia(alunos)
+   Cont <- 1
+      Enquanto(Cont <= alunos)Faca
+      EscrevaL("Aluno: ",Cont)
+      Escreva("Qual o nome do aluno? ")
+      Leia(Nome)
+      Escreva("Qual a nota de ",Nome,"?")
+      Leia(Nota)
+      EscrevaL("___________________")
+      Se(Nota>MN)Entao
+      MN <- Nota
+      MA <- Nome
+   FimSe
+   
+      Cont <- Cont +1
+      FimEnquanto
+      EscrevaL("---------------------")
+      EscrevaL("O Melhor aproveitamento foi de",MA,"Com a nota",MN)
+fimalgoritmo
