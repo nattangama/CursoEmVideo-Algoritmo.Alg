@@ -1,0 +1,11 @@
+algoritmo "Pratica1ConteAte10"
+var
+   contador : Inteiro
+inicio
+      Contador <- 0
+      Enquanto (Contador <= 90) faca
+       EscrevaL(Contador)
+          Contador <- contador + 10
+      FimEnquanto
+      EscrevaL("Encerou o Algoritmo!")
+fimalgoritmo
