@@ -1,0 +1,22 @@
+algoritmo "Pratica II_PARouIMPAR"
+var
+   N:INTEIRO
+   R:CARACTERE
+   Funcao ParOuImpar(V:Inteiro): CARACTERE
+   Inicio
+         Se (V%2 = 0)entao
+             Retorne "PAR"
+         Senao
+             Retorne "IMPAR"
+      FimSe
+FimFuncao
+
+Inicio
+      EscrevaL("___________________")
+      EscrevaL("    PAR OU IMPAR   ")
+      EscrevaL("-------------------")
+      EscrevaL("Digite um numero: ")
+      Leia(N)
+      R<-ParOuImpar(N)
+      Escreva("O numero ", N, " e um valor ", R)
+fimalgoritmo
