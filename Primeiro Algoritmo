@@ -1,0 +1,7 @@
+algoritmo "Primeiro Algoritmo"
+var
+msg: caractere
+inicio
+msg<- "Ola, mundo!"
+Escreva("Recado: " , msg)
+fimalgoritmo
