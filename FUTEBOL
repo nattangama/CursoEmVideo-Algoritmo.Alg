@@ -1,0 +1,29 @@
+algoritmo "AtividadeFUTEBOL"
+
+var
+  Bangu, Madureira, Diferenca, Em, N, G : INTEIRO
+inicio
+      EscrevaL("__________________")
+      EscrevaL("BANGU x MADUREIRA ")
+      EscrevaL("------------------")
+      
+      Escreva ("Quantos Gols do Bangu? ")
+      Leia (Bangu)
+      Escreva ("Quantos Gols do Madureira? ")
+      Leia (Madureira)
+      Diferenca <- Bangu - Madureira
+      EscrevaL ("___________")
+      EscrevaL ("Diferença: ", Diferenca)
+      SE (Diferenca = 0) Entao
+         EscrevaL("STATUS: EMPATE ")
+      senao
+        SE (Diferenca <3) entao
+           EscrevaL("STATUS: PARTIDA NORMAL ")
+        senao
+          SE (Diferenca >5) entao
+             EscrevaL ("STATUS: GOLEADA")
+              FimSe
+          FimSe
+         FimSe
+EscrevaL("____________")
+fimalgoritmo
