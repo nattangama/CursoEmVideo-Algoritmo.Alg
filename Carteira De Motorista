@@ -1,0 +1,23 @@
+algoritmo "Carteira De Motorista"
+var
+ A,N, idade : Inteiro
+inicio
+EscrevaL("--------------------------")
+EscrevaL("DEPARTAMENTO DE TRANSITO")
+EscrevaL("--------------------------")
+Escreva("Ano atual(yyy): ")
+Leia(A)
+Escreva("Nascimento (yyy): ")
+Leia(N)
+idade<- A - N
+EscrevaL("-------------STATUS---------------")
+EscrevaL("idade:",idade,"anos.")
+Se(idade>=18)entao
+ EscrevaL("Parabens!voce esta apto a tirar a carteira de motorista")
+ senao
+ EscrevaL("Voce nao esta apto a dirigir")
+EscrevaL("-----------------------------------")
+FimSe
+ 
+ 
+fimalgoritmo
