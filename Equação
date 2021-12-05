@@ -1,0 +1,34 @@
+algoritmo "Equação"
+var
+  A, B, C : INTEIRO
+  Delta : REAL
+  x1, x2 : REAL
+inicio
+     EscrevaL("________________________")
+     EscrevaL("Equação do segundo grau" )
+     EscrevaL("-----------------------" )
+     Escreva("Informe o valor de A: ")
+     Leia(A)
+     Escreva("Informa  valor de B: ")
+     Leia(B)
+     Escreva("Informa o valor de C: ")
+     Leia(C)
+     EscrevaL("---------------------")
+     EscrevaL("Sua Equaçao e: ",a,"x2 +",b,"x+0",c,"=0")
+     Delta := (B*B)-4*a*c
+     EscrevaL("O valor de Delta: " , Delta :4:2)
+     EscrevaL("-------------------------------")
+     Se (delta < 0) entao
+        EscrevaL ("Para delta negativo ,nao exitem raizes reais")
+     Senao
+       se(delta = 0) entao
+       x1 := (-B + raiz(delta)) / (2*a)
+         EscrevaL("Para delta zero, temos duas raizes iguais a A", X1)
+       senao
+       x1:=(-b+raizQ(delta))/(2*a)
+       x2:=(-b-raizq(delta))/(2*a)
+       EscrevaL("X' = ", x1:4:2)
+       EscrevaL("X'' = ", x2:4:2)
+      FimSe
+     FimSe
+fimalgoritmo
