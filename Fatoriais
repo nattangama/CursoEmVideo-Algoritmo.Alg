@@ -1,0 +1,13 @@
+algoritmo "ExemploIII_Dos_Fatoriais"
+
+var
+    Cont: INTEIRO
+inicio
+      Cont <- 1
+      Repita
+        EscrevaL(Cont)
+      cont <- Cont + 1
+      Ate (cont > 10)
+      
+      EscrevaL("Encerrou a contagem!")
+fimalgoritmo
