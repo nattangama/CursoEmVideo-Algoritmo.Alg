@@ -1,0 +1,15 @@
+algoritmo "PraticaII_FazSomaProcedimento"
+
+var
+   X, Y: Inteiro
+Procedimento Soma(A, B: Inteiro)
+Inicio
+    EscrevaL("Recebi o Valor ", A)
+    EscrevaL("Recebi o Valor ", B)
+    EscrevaL("A soma entre os dois e ", A + B)
+FimProcedimento
+inicio
+     x <- 5
+     y <- 3
+     Soma(X, Y)
+fimalgoritmo
