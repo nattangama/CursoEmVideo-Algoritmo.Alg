@@ -1,0 +1,37 @@
+algoritmo "NotaEscolar"
+var
+   nota1, nota2, media : Real
+inicio
+      EscrevaL("_____________________________________________")
+      EscrevaL("Universidade VisuAlg da Lógica de Programação")
+      EscrevaL("---------------------------------------------")
+      Escreva("Informe a Primeira Nota: ")
+      Leia(Nota1)
+      Escreva("Informe a Segunda Nota: ")
+      Leia(Nota2)
+      EscrevaL("---------------------------------------------")
+      media <-(nota1+nota2)/2
+      EscrevaL("Média do aluno:",Media)
+      Se(Media>=9)e(Media<=10)entao
+        EscrevaL("Classificação: A")
+      senao
+        se(Media>=8)e(Media<=9)entao
+          EscrevaL("Classificação: B")
+        senao
+          se(Media>=7)e(Media<=8)entao
+            EscrevaL("Classificação: C")
+          senao
+            se(Media>=6)e(Media<=7)entao
+              EscrevaL("Classificação: D")
+            senao
+              se(Media>5)e(Media<=6)entao
+                EscrevaL("Clasificação: E")
+              senao
+               EscrevaL("Classificação: F")
+              FimSe
+            FimSe
+          FimSe
+        FimSe
+      FimSe
+    EscrevaL("_____________________________________________")
+fimalgoritmo
