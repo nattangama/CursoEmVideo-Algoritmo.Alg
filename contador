@@ -1,0 +1,23 @@
+algoritmo "contador"
+var
+   Contando, inici, fim : Inteiro
+inicio
+      EscrevaL("____________________________")
+      EscrevaL("    Contagem Inteligente    ")
+      EscrevaL("----------------------------")
+      Escreva("Qual valor inicial: ")
+      leia(Inici)
+      Escreva("Qual valor final: ")
+      Leia(Fim)
+      Escreva("Contando")
+      Contando <- Inici
+      se (contando <= fim) Entao
+      EscrevaL("...")
+      Contando <- Contando +1
+    Senao
+      Enquanto(contando >= fim)faca
+        Escreva(Contando, "...")
+        Contando <- Contando - 1
+       FimEnquanto
+    FimSe
+fimalgoritmo
