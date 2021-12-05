@@ -1,0 +1,28 @@
+algoritmo "SomadorNumerico"
+var
+   cont, N, S, Maior, Menor : Inteiro
+
+inicio
+     Cont <- 1
+     S <- 0
+     Enquanto (cont <= 3) faca
+       Escreva("Digite O", cont, "o. valor: ")
+       Leia(N)
+       Se(N > Maior) entao
+          Maior <- N
+             FimSe
+          Se(cont=1)entao
+            menor<-N
+              FimSe
+          Se (N<Menor)entao
+             Menor <-N
+              FimSe
+                 cont <- cont + 1
+                 s <- s + n
+  FimEnquanto
+  
+  EscrevaL("A soma de todos os valores é igual a: ", S)
+  EscrevaL("O Maior número digitado foi: ", Maior)
+  EscrevaL("O Menor número digitado foi: ", Menor)
+  
+fimalgoritmo
