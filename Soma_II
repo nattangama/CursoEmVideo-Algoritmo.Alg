@@ -1,0 +1,17 @@
+algoritmo "Soma_II"
+
+var
+   N, S: INTEIRO
+   Resp: CARACTERE
+inicio
+      S <- 0
+      Resp <- "S"
+      Repita
+        Escreva ("Digite o valor ==> ")
+        Leia (N)
+        S <- S + N
+        EscrevaL("Você quer continuar? [S/N] ")
+        Leia(resp)
+   Ate (resp = "N")
+   EscrevaL("A soma de todos os valores digitados e ", S)
+fimalgoritmo
