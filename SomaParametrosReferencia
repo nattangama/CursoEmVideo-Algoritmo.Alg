@@ -16,3 +16,4 @@ Inicio
    EscrevaL("Valor de X s= ", X)
    EscrevaL("Valor de Y = ", Y)
 Fimalgoritmo
+
