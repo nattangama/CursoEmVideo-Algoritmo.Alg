@@ -10,3 +10,4 @@ Leia(N2)
 M <- N1 + N2
 Escreva("O Resultado entre ", N1 , " e ", N2 , " = ", M)
 FimAlgoritmo
+
