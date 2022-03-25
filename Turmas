@@ -28,3 +28,4 @@ inicio
       EscrevaL("---------------------")
       EscrevaL("O Melhor aproveitamento foi de",MA,"Com a nota",MN)
 fimalgoritmo
+
