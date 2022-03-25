@@ -33,3 +33,4 @@ inicio
         EscrevaL("Total de homens com mais de 18 anos e cabelos castanhos é?",pmcerta)
         EscrevaL("Total de mulheres entre 25 e 30 anos e cabelo loiros é?",pfcerta)
 fimalgoritmo
+
