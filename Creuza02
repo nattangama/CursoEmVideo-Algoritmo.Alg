@@ -7,3 +7,4 @@ inicio
       Dolares <- Reais/ 5.80
       Escreva("Posso ter US$ ", Dolares)
 fimalgoritmo
+
