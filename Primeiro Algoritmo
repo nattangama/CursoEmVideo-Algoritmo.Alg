@@ -5,3 +5,4 @@ inicio
 msg<- "Ola, mundo!"
 Escreva("Recado: " , msg)
 fimalgoritmo
+
